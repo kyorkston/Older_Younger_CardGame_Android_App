@@ -13,7 +13,6 @@ public class GameCards {
 
     public GameCards(){
         this.cards = new HashMap<>();
-
         setUpCards();
     }
 

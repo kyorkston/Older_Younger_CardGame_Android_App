@@ -1,8 +1,10 @@
 package example.codeclan.com.olderyoungercardgame;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * Created by user on 20/01/2017.
@@ -12,7 +14,8 @@ public class GameCardsTest {
 
     private GameCards cards;
 
-    public GameCardsTest(){
+    @Before
+    public void before(){
         cards = new GameCards();
     }
 
@@ -29,5 +32,10 @@ public class GameCardsTest {
     @Test
     public void canCountNumberOfCards(){
         assertEquals(11, cards.numberOfCards());
+    }
+
+    @Test
+    public void canGetCard(){
+        assertNotNull(cards.getRandomKeyAndValue());
     }
 }
