@@ -1,0 +1,15 @@
+Implementation Constraints of Anrdoid App Card Game:
+
+- Android platform and version may not work or display correctly or the same on all android platforms.
+
+- Research time consumption will take a while to collect correct data and images for ancient monuments to be used in the game.
+
+- Storage of Android Project may become too large to be installed on some devices.
+
+- Compiling time and testing time is consuming as the software takes a while to build and compile and show results.
+
+- No budget, this is all on my own time and own budget.
+
+- 6 days to complete project, mostly on own time and outwith classtime.
+
+- There will be little help when i am working outside of class times.
