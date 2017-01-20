@@ -1,10 +1,7 @@
 package example.codeclan.com.olderyoungercardgame;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
-
-import static android.R.attr.key;
+import java.util.Random;
 
 /**
  * Created by user on 20/01/2017.
@@ -20,7 +17,7 @@ public class GameCards {
         setUpCards();
     }
 
-    public void setUpCards() {
+    private void setUpCards() {
         cards.put("Stonehenge", 5000);
         cards.put("Colosseum", 2000);
         cards.put("Eiffel Tower", 130);
@@ -35,8 +32,7 @@ public class GameCards {
     }
 
     public int getValue(String key){
-        int value = cards.get(key);
-        return value;
+        return cards.get(key);
     }
 
     public String getKey(int value){
@@ -48,6 +44,15 @@ public class GameCards {
         return null;
     }
 
+    public int numberOfCards(){
+        return cards.size();
+    }
 
+    public String getRandomKeyAndValue(){
+        Object[] arrayOfHash = cards.keySet().toArray();
+        Object result =  arrayOfHash[new Random().nextInt(arrayOfHash.length)];
+        int value = getValue(result.toString());
+        return result.toString() + " " + value;
+    }
 
 }

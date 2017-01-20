@@ -3,7 +3,6 @@ package example.codeclan.com.olderyoungercardgame;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 /**
  * Created by user on 20/01/2017.
@@ -11,7 +10,7 @@ import static org.junit.Assert.assertNotNull;
 
 public class GameCardsTest {
 
-    GameCards cards;
+    private GameCards cards;
 
     public GameCardsTest(){
         cards = new GameCards();
@@ -27,4 +26,8 @@ public class GameCardsTest {
         assertEquals("Stonehenge", cards.getKey(5000));
     }
 
+    @Test
+    public void canCountNumberOfCards(){
+        assertEquals(11, cards.numberOfCards());
+    }
 }

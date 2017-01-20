@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_text_view" type="id">MainTextView</item>
+    <item name="random_card_button" type="id">randomCardButton</item>
+</resources>
