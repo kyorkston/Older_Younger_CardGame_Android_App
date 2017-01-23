@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">OlderYoungerCardGame</string>
-    <string name="rules">Play to see whose card is older or younger!</string>
+    <string name="rules">Press play!</string>
     <string name="reset">Reset Game</string>
 </resources>

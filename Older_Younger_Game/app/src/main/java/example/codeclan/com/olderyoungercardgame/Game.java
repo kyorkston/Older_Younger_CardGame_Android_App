@@ -14,6 +14,7 @@ public class Game {
     private int computerWins;
     private int playerWins;
 
+
     public Game(){
         this.cards = new GameCards();
         this.player = getRandomCard();
@@ -71,5 +72,9 @@ public class Game {
     public String play(){
         return winLogic() + "\n" + "Computer wins: " + computerWins + " Player wins: " + playerWins;
     }
+
+//    public String nextPlay(){
+//
+//    }
 
 }
