@@ -7,4 +7,9 @@
     <string name="petra">hi</string>
     <string name="colosseum">colosseum</string>
     <string name="hagiasophia">hagia Sophia</string>
+    <string name="ankgor">Angkor Wat</string>
+    <string name="moai">Moai heads</string>
+    <string name="machu">Machu Picchu</string>
+    <string name="mahal">Taj Mahal</string>
+    <string name="eiffel">Eiffel Tower</string>
 </resources>

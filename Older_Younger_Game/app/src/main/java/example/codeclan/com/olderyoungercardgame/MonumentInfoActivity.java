@@ -22,16 +22,16 @@ public class MonumentInfoActivity  extends AppCompatActivity{
     ImageView colosseumImage;
     TextView hagiasophiaInfo;
     ImageView hagiasophiaImage;
-//    TextView angkorwatInfo;
-//    ImageView angkorwatImage;
-//    TextView moaiInfo;
-//    ImageView moaiImage;
-//    TextView machupicchuInfo;
-//    ImageView machupicchuImage;
-//    TextView tajmahalInfo;
-//    ImageView tajMahalImage;
-//    TextView eiffeltowerInfo;
-//    ImageView eiffeltowerImage;
+    TextView angkorwatInfo;
+    ImageView angkorwatImage;
+    TextView moaiInfo;
+    ImageView moaiImage;
+    TextView machupicchuInfo;
+    ImageView machupicchuImage;
+    TextView tajmahalInfo;
+    ImageView tajMahalImage;
+    TextView eiffeltowerInfo;
+    ImageView eiffeltowerImage;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,6 +60,26 @@ public class MonumentInfoActivity  extends AppCompatActivity{
         hagiasophiaInfo = (TextView)findViewById(R.id.hagia_text);
         hagiasophiaImage = (ImageView)findViewById(R.id.hagia_image);
         hagiasophiaImage.setImageResource(R.drawable.hagia_sophia_playing);
+
+        angkorwatInfo = (TextView)findViewById(R.id.angkor_text);
+        angkorwatImage = (ImageView)findViewById(R.id.angkor_image);
+        angkorwatImage.setImageResource(R.drawable.angkor_wat_playing);
+
+        moaiInfo = (TextView)findViewById(R.id.moai_text);
+        moaiImage = (ImageView)findViewById(R.id.moai_image);
+        moaiImage.setImageResource(R.drawable.moai_playing);
+
+        machupicchuInfo = (TextView)findViewById(R.id.machu_text);
+        machupicchuImage = (ImageView)findViewById(R.id.machu_image);
+        machupicchuImage.setImageResource(R.drawable.machu_picchu_playing);
+
+        tajmahalInfo = (TextView)findViewById(R.id.mahal_text);
+        tajMahalImage = (ImageView)findViewById(R.id.mahal_image);
+        tajMahalImage.setImageResource(R.drawable.taj_mahal_playing);
+
+        eiffeltowerInfo = (TextView)findViewById(R.id.eiffel_text);
+        eiffeltowerImage = (ImageView)findViewById(R.id.eiffel_image);
+        eiffeltowerImage.setImageResource(R.drawable.eiffel_playing);
     }
 
 }

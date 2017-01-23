@@ -71,16 +71,85 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/hagia_image"
-            android:layout_marginTop="880sp"
+            android:layout_marginTop="1740sp"
             android:contentDescription="@string/hagiasophia"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/hagia_text"
-            android:layout_marginTop="1280sp"
+            android:layout_marginTop="2140sp"
             android:text="@string/hagiasophia"/>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/angkor_image"
+            android:layout_marginTop="2170sp"
+            android:contentDescription="@string/ankgor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/angkor_text"
+            android:layout_marginTop="2570sp"
+            android:text="@string/ankgor"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/moai_image"
+            android:layout_marginTop="2600sp"
+            android:contentDescription="@string/moai"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/moai_text"
+            android:layout_marginTop="3000sp"
+            android:text="@string/moai"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/machu_image"
+            android:layout_marginTop="3030sp"
+            android:contentDescription="@string/machu"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/machu_text"
+            android:layout_marginTop="3430sp"
+            android:text="@string/machu"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mahal_image"
+            android:layout_marginTop="3460sp"
+            android:contentDescription="@string/mahal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mahal_text"
+            android:layout_marginTop="3860sp"
+            android:text="@string/mahal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eiffel_image"
+            android:layout_marginTop="3890sp"
+            android:contentDescription="@string/eiffel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eiffel_text"
+            android:layout_marginTop="4290sp"
+            android:text="@string/eiffel"/>
 
     </RelativeLayout>
 
