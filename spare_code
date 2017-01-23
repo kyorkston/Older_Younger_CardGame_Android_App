@@ -1,0 +1,52 @@
+spare code
+
+
+
+public void onRandomCardButtonPressed(View button){
+    Log.d(getClass().toString(), "Random Button Pressed");
+
+    String theResult = game.play();
+
+    cardDetermination();
+
+    gameRules.setText(theResult);
+}
+
+<Button
+       android:id="@+id/random_card_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="onRandomCardButtonPressed"
+       android:text="Play!"
+       android:layout_centerHorizontal="true"
+       android:textSize="20sp"
+       android:layout_marginTop="580sp"
+       />
+
+
+//checkwin methods!
+public String winLogic() {
+    if (getPlayerCardValue() < getComputerCardValue()) {
+        computerWins++;
+        return "You lose, the computer's card was older!" + "\n"
+                + thePlayerCard();
+    }
+    else if (getPlayerCardValue() > getComputerCardValue()) {
+        playerWins++;
+        return "You win, you're card was older!" + "\n"
+                + thePlayerCard();
+    }
+    else if (getPlayerCardValue() == getComputerCardValue()) {
+        return "Draw!" +
+                "\n" + thePlayerCard();
+    }
+    else
+        return "Ya broke!";
+}
+
+
+//    //more info for this function, method called in activity class
+//    public String play(){
+//        return winLogic();
+////                "\n" + "Computer wins: " + computerWins + " Player wins: " + playerWins;
+//    }

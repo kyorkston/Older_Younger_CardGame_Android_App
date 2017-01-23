@@ -1,8 +1,12 @@
 package example.codeclan.com.olderyoungercardgame;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -32,6 +36,7 @@ public class MonumentInfoActivity  extends AppCompatActivity{
     ImageView tajMahalImage;
     TextView eiffeltowerInfo;
     ImageView eiffeltowerImage;
+    Intent intent;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,7 +56,7 @@ public class MonumentInfoActivity  extends AppCompatActivity{
 
         petraInfo = (TextView)findViewById(R.id.petra_text);
         petraImage = (ImageView)findViewById(R.id.petra_image);
-        stonehengeImage.setImageResource(R.drawable.petra_playing);
+        petraImage.setImageResource(R.drawable.petra_playing);
 
         colosseumInfo = (TextView)findViewById(R.id.colosseum_text);
         colosseumImage = (ImageView)findViewById(R.id.colosseum_image);
@@ -80,6 +85,24 @@ public class MonumentInfoActivity  extends AppCompatActivity{
         eiffeltowerInfo = (TextView)findViewById(R.id.eiffel_text);
         eiffeltowerImage = (ImageView)findViewById(R.id.eiffel_image);
         eiffeltowerImage.setImageResource(R.drawable.eiffel_playing);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.home){
+            Log.d(getClass().toString(), "Home Button selected");
+
+            intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }
