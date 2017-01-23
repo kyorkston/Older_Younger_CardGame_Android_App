@@ -37,7 +37,7 @@ public class MonumentInfoActivity  extends AppCompatActivity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.momument_info);
+        setContentView(R.layout.monument_info);
 
         Log.d(getClass().toString(), "Monument Info onCreate created");
 

@@ -2,4 +2,9 @@
     <string name="app_name">OlderYoungerCardGame</string>
     <string name="rules">Play by pressing Higher or Lower!</string>
     <string name="more_info">Monument Info</string>
+    <string name="stonehenge">hiya</string>
+    <string name="pyramids">hello</string>
+    <string name="petra">hi</string>
+    <string name="colosseum">colosseum</string>
+    <string name="hagiasophia">hagia Sophia</string>
 </resources>

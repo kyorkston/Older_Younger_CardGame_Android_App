@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/stonehenge_image"
+            android:layout_marginTop="20sp"
+            android:contentDescription="@string/stonehenge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/stonehenge_text"
+            android:layout_marginTop="420sp"
+            android:text="@string/stonehenge"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="450sp"
+            android:id="@+id/pyramids_image"
+            android:contentDescription="@string/pyramids"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pyramids_text"
+            android:layout_marginTop="850sp"
+            android:text="@string/pyramids"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/petra_image"
+            android:layout_marginTop="880sp"
+            android:contentDescription="@string/petra"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/petra_text"
+            android:layout_marginTop="1280sp"
+            android:text="@string/petra"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/colosseum_image"
+            android:layout_marginTop="1310sp"
+            android:contentDescription="@string/colosseum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/colosseum_text"
+            android:layout_marginTop="1710sp"
+            android:text="@string/colosseum"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hagia_image"
+            android:layout_marginTop="880sp"
+            android:contentDescription="@string/hagiasophia"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hagia_text"
+            android:layout_marginTop="1280sp"
+            android:text="@string/hagiasophia"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
