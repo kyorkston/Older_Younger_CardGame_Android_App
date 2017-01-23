@@ -52,19 +52,16 @@ public class Game {
         if (getPlayerCardValue() < getComputerCardValue()) {
             computerWins++;
             return "You lose, the computer's card was older!" + "\n"
-                    + thePlayerCard() + "\n"
-                    + theComputerCard();
+                    + thePlayerCard();
         }
         else if (getPlayerCardValue() > getComputerCardValue()) {
             playerWins++;
             return "You win, you're card was older!" + "\n"
-                    + thePlayerCard() + "\n"
-                    + theComputerCard();
+                    + thePlayerCard();
         }
-        else if (getPlayerCardValue() == getComputerCardValue()){
+        else if (getPlayerCardValue() == getComputerCardValue()) {
             return "Draw!" +
-                    "\n" + thePlayerCard() +
-                    "\n" + theComputerCard();
+                    "\n" + thePlayerCard();
         }
         else
             return "Ya broke, bruh!";

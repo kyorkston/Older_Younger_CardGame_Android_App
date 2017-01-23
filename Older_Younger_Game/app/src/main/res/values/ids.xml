@@ -3,4 +3,5 @@
     <item name="main_text_view" type="id">MainTextView</item>
     <item name="random_card_button" type="id">randomCardButton</item>
     <item name="stonehenge_image" type="id">stonehenge_img</item>
+    <item name="higher_button" type="id">higher_button</item>
 </resources>

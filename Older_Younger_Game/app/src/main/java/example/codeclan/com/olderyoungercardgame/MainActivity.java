@@ -1,5 +1,6 @@
 package example.codeclan.com.olderyoungercardgame;
 
+import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     TextView gameRules;
     Button randomCard;
     ImageView playingCardImage;
+    Button higher_button;
+    Intent intent;
+    Game game;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -31,16 +35,27 @@ public class MainActivity extends AppCompatActivity {
         gameRules = (TextView)findViewById(R.id.main_text_view);
         randomCard = (Button)findViewById(R.id.random_card_button);
         playingCardImage = (ImageView)findViewById(R.id.main_img);
+        higher_button = (Button)findViewById(R.id.higher_button);
+        intent = new Intent(MainActivity.this, Pop.class);
+        game = new Game();
 
         Log.d(getClass().toString(), "onCreate made");
 
     }
 
+    public void onHigherButtonPressed(View button){
+        Log.d(getClass().toString(), "Higher button pressed");
+
+        String result = game.play();
+
+        intent.putExtra("result", result);
+        startActivity(intent);
+
+    }
+
     public void onRandomCardButtonPressed(View button){
         Log.d(getClass().toString(), "Random Button Pressed");
-
-        Game game = new Game();
-
+        
         String theResult = game.play();
 
         gameRules.setText(theResult);
