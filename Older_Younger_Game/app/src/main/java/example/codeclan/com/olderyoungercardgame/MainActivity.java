@@ -22,7 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
     TextView gameRules;
     Button randomCard;
+    ImageView playingCardImage;
+    Button higher_button;
     Intent intent;
+    Game game;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -30,19 +33,62 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.main_activity);
         gameRules = (TextView)findViewById(R.id.main_text_view);
-        randomCard = (Button)findViewById(R.id.higher_button);
+        randomCard = (Button)findViewById(R.id.random_card_button);
+        playingCardImage = (ImageView)findViewById(R.id.main_img);
+        higher_button = (Button)findViewById(R.id.higher_button);
+        intent = new Intent(MainActivity.this, Pop.class);
+        game = new Game();
+        game.play();
 
         Log.d(getClass().toString(), "onCreate made");
-
     }
 
+    public void onHigherButtonPressed(View button){
+        Log.d(getClass().toString(), "Higher button pressed");
+
+        String result = game.play();
+
+        intent.putExtra("result", result);
+        startActivity(intent);
+    }
 
     public void onRandomCardButtonPressed(View button){
         Log.d(getClass().toString(), "Random Button Pressed");
 
-        intent = new Intent(MainActivity.this, GameActivity.class);
+        String theResult = game.play();
 
-        startActivity(intent);
+        gameRules.setText(theResult);
+
+        if (game.theComputerCard().contains("Stonehenge")){
+            playingCardImage.setImageResource(R.drawable.stonehenge_playing);
+        }
+        else if (game.theComputerCard().contains("Taj")){
+            playingCardImage.setImageResource(R.drawable.taj_mahal_playing);
+        }
+        else if (game.theComputerCard().contains("seum")){
+            playingCardImage.setImageResource(R.drawable.colosseum_playing);
+        }
+        else if (game.theComputerCard().contains("Eiffel")){
+            playingCardImage.setImageResource(R.drawable.eiffel_playing);
+        }
+        else if (game.theComputerCard().contains("Hagia")){
+            playingCardImage.setImageResource(R.drawable.hagia_sophia_playing);
+        }
+        else if (game.theComputerCard().contains("Pyramids")){
+            playingCardImage.setImageResource(R.drawable.pyramids_playing);
+        }
+        else if (game.theComputerCard().contains("Petra")){
+            playingCardImage.setImageResource(R.drawable.petra_playing);
+        }
+        else if (game.theComputerCard().contains("Moai")){
+            playingCardImage.setImageResource(R.drawable.moai_playing);
+        }
+        else if (game.theComputerCard().contains("Machu")) {
+            playingCardImage.setImageResource(R.drawable.machu_picchu_playing);
+        }
+        else if (game.theComputerCard().contains("Angkor")) {
+            playingCardImage.setImageResource(R.drawable.angkor_wat_playing);
+        }
 
     }
 
