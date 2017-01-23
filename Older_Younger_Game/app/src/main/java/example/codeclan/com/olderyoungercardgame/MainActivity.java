@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         higher_button = (Button)findViewById(R.id.higher_button);
         intent = new Intent(MainActivity.this, Pop.class);
         game = new Game();
-        game.play();
 
         Log.d(getClass().toString(), "onCreate made");
+
     }
 
     public void onHigherButtonPressed(View button){
@@ -50,10 +50,12 @@ public class MainActivity extends AppCompatActivity {
 
         intent.putExtra("result", result);
         startActivity(intent);
+
     }
 
     public void onRandomCardButtonPressed(View button){
         Log.d(getClass().toString(), "Random Button Pressed");
+        Game game = new Game();
 
         String theResult = game.play();
 
