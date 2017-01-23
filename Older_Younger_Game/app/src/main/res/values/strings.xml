@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">OlderYoungerCardGame</string>
-    <string name="rules">Press play!</string>
-    <string name="reset">Reset Game</string>
+    <string name="rules">Play by pressing Higher or Lower!</string>
+    <string name="more_info">Monument Info</string>
 </resources>

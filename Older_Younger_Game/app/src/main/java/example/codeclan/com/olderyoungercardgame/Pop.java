@@ -2,11 +2,11 @@ package example.codeclan.com.olderyoungercardgame;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -14,7 +14,9 @@ import android.widget.TextView;
  */
 public class Pop extends AppCompatActivity{
 
-    TextView result_text;
+    TextView resultText;
+    Button playAgain;
+    Intent intent;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,7 +26,9 @@ public class Pop extends AppCompatActivity{
 
         Log.d(getClass().toString(), "Higher button initialised");
 
-        result_text = (TextView)findViewById(R.id.result_text);
+        resultText = (TextView)findViewById(R.id.result_text);
+        playAgain = (Button)findViewById(R.id.replay_button);
+        intent = new Intent(Pop.this, MainActivity.class);
 
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
@@ -38,6 +42,12 @@ public class Pop extends AppCompatActivity{
 
         getWindow().setLayout((int)(width*0.5), (int)(height*0.3));
 
-        result_text.setText(answer);
+        resultText.setText(answer);
+    }
+
+    public void onPlayAgainButtonPressed(View button){
+        Log.d(getClass().toString(), "Play Again pressed");
+
+        startActivity(intent);
     }
 }

@@ -2,7 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/action_reset"
-        android:title="@string/reset"/>
+        android:id="@+id/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/action_more_info"
+        android:title="@string/more_info"/>
+
 
 </menu>

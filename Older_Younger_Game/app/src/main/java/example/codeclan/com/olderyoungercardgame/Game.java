@@ -11,8 +11,8 @@ public class Game {
     private GameCards cards;
     private String player;
     private String computer;
-    private int computerWins;
-    private int playerWins;
+    public int computerWins;
+    public int playerWins;
 
 
     public Game(){
@@ -28,6 +28,7 @@ public class Game {
         return cards.getRandomKeyAndValue();
     }
 
+    // getting card info methods, DRY?
     public String thePlayerCard(){
         return "Your card was " + player;
     }
@@ -48,33 +49,26 @@ public class Game {
         return integer;
     }
 
-    //checkwin methods!
-    public String winLogic() {
-        if (getPlayerCardValue() < getComputerCardValue()) {
-            computerWins++;
-            return "You lose, the computer's card was older!" + "\n"
-                    + thePlayerCard();
+    public String higherGuess(){
+        if (getPlayerCardValue() > getComputerCardValue()){
+            return "You win! The computer's card was younger." + "\n" + thePlayerCard();
         }
-        else if (getPlayerCardValue() > getComputerCardValue()) {
-            playerWins++;
-            return "You win, you're card was older!" + "\n"
-                    + thePlayerCard();
-        }
-        else if (getPlayerCardValue() == getComputerCardValue()) {
-            return "Draw!" +
-                    "\n" + thePlayerCard();
+        else if (getPlayerCardValue() == getComputerCardValue()){
+            return "Draw! They were both the same age." + "\n" + thePlayerCard();
         }
         else
-            return "Ya broke, bruh!";
+            return "You lose the computer's card was older!" + "\n" + thePlayerCard();
     }
 
-    //more info for this function
-    public String play(){
-        return winLogic() + "\n" + "Computer wins: " + computerWins + " Player wins: " + playerWins;
+    public String lowerGuess(){
+        if (getPlayerCardValue() < getComputerCardValue()){
+            return "You win! The computer's card was older." + "\n" + thePlayerCard();
+        }
+        else if (getPlayerCardValue() == getComputerCardValue()){
+            return "Draw! They were both the same age." + "\n" + thePlayerCard();
+        }
+        else
+            return "You lose! The computer's card was younger." + "\n" + thePlayerCard();
     }
-
-//    public String nextPlay(){
-//
-//    }
 
 }
