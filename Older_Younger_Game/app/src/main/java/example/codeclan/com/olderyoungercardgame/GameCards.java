@@ -23,7 +23,6 @@ public class GameCards {
         cards.put("Hagia Sophia", 1500);
         cards.put("Pyramids", 4500);
         cards.put("Petra", 2300);
-        cards.put("Chichen Itza", 1500);
         cards.put("Moai", 700);
         cards.put("Machu Pichu", 500);
         cards.put("Angkor Wat", 800);
