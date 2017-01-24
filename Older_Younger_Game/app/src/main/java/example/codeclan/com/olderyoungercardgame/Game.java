@@ -11,13 +11,15 @@ public class Game {
     private GameCards cards;
     private String player;
     private String computer;
-
-    // no longer using score counter since game resets every time
+    public int playerWins;
+    public int computerWins;
 
     public Game(){
         this.cards = new GameCards();
         this.player = getRandomCard();
         this.computer = getRandomCard();
+        this.playerWins = 0;
+        this.computerWins = 0;
     }
 
     //random card
@@ -48,24 +50,32 @@ public class Game {
 
     public String higherGuess(){
         if (getPlayerCardValue() > getComputerCardValue()){
+            playerWins++;
             return "You win! The computer's card was younger." + "\n" + thePlayerCard();
         }
         else if (getPlayerCardValue() == getComputerCardValue()){
             return "Draw! They were both the same age." + "\n" + thePlayerCard();
         }
         else
+            computerWins++;
             return "You lose the computer's card was older!" + "\n" + thePlayerCard();
     }
 
     public String lowerGuess(){
         if (getPlayerCardValue() < getComputerCardValue()){
+            playerWins++;
             return "You win! The computer's card was older." + "\n" + thePlayerCard();
         }
         else if (getPlayerCardValue() == getComputerCardValue()){
             return "Draw! They were both the same age." + "\n" + thePlayerCard();
         }
         else
+            computerWins++;
             return "You lose! The computer's card was younger." + "\n" + thePlayerCard();
+    }
+
+    public String winResults(){
+        return "Computer Wins: " + computerWins + " Your Wins: " + playerWins;
     }
 
 }

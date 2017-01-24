@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 /**
  * Created by user on 20/01/2017.
  */
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView playingCardImage;
     Button higherButton;
     Button lowerButton;
+    TextView winCounter;
     Intent intent;
     Game game;
 
@@ -34,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         playingCardImage = (ImageView)findViewById(R.id.main_img);
         higherButton = (Button)findViewById(R.id.higher_button);
         lowerButton = (Button)findViewById(R.id.lower_button);
+        winCounter = (TextView)findViewById(R.id.win_counter);
 
         game = new Game();
 
@@ -41,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(getClass().toString(), "onCreate made");
 
+        winCounter.setText(game.winResults());
     }
 
     public void onHigherButtonPressed(View button){

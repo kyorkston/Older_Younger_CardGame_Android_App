@@ -6,11 +6,13 @@
         <item name="colorPrimary">#182626</item>
         <item name="colorPrimaryDark">#182626</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
     </style>
     
-    <style name="AppTheme.CustomTheme">
+    <style name="AppTheme.CustomTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
+
     </style>
 
 </resources>

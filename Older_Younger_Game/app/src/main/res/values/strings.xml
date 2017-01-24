@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">OlderYounger</string>
     <string name="rules">Play against the Computer to see if your card is Older or Younger!</string>
-    <string name="more_info">MONUMENT INFO</string>
+    <string name="more_info">MONUMENTS</string>
     <string name="stonehenge">  Stonehenge is more than the ring of stones which you see, the whole landscape of Amesbury was used in ritual practices.  The stonehenge monoliths were constructed around 3100BC.</string>
     <string name="pyramids">    The earliest Egyptian pyramids construction began around 2630BC. The were mostly used as tombs for the Pharaohs and the upper class.</string>
     <string name="petra">   Petra is an ancient city in Jordan, construction is thought to have begun in the 5th c. BC. This particular building is known as the Treasury, an elaborate temple.</string>
     <string name="colosseum">   The Colosseum is the largest amphitheatre ever built, it could hold 50 to 80,000 people, where gladiator battles, dramas and executions could be witnessed.</string>
     <string name="hagiasophia"> Hagia Sophia or "Holy Wisdom" has had many uses in its history in Istanbul, switching from a Christian Church to a Greek Orthodox Church to a Mosque and now it is a museum.</string>
-    <string name="ankgor">  Angkor Wat is the largest religious monument in the world built in Cambodia. It appears on the countrys flag and is a major attraction to tourists.</string>
+    <string name="ankgor">  Angkor Wat is the largest religious monument in the world built in Cambodia. It appears on the country\'s flag and is a major attraction to tourists.</string>
     <string name="moai">    Moai are the Easter Island monuments tht the world over are fascinated by.  The tallest was almost 10m tall and there are more than 900 of them.</string>
     <string name="machu">   Machu Picchu is an Incan citadel thought to have been built as an estate for one of the Emperors. It is 7970ft above sea level and many tourists follow the Incan trail to reach the Lost City.</string>
     <string name="mahal">   Taj Mahal was built as a mausoleum for emperor Shah Jahan\'s favourite wife in 1632. It is often claimed as the ultimate symbol of love and devotion.</string>
