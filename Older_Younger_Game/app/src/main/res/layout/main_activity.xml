@@ -2,21 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFBEF">
+    android:layout_marginLeft="40sp"
+    android:layout_marginRight="40sp"
+    android:background="#FFE9E3">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:layout_centerHorizontal="true"
         android:id="@+id/rules_text_view"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:text="@string/rules"
-        android:layout_marginLeft="10sp"
-        android:layout_marginRight="10sp"
-        android:textColor="#AC9377"
+        android:textColor="#904A2D"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:layout_marginTop="20sp"/>
+        />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -40,21 +41,6 @@
     <Button
         android:layout_width="150sp"
         android:layout_height="50sp"
-        android:id="@+id/lower_button"
-        android:text="Younger"
-        android:onClick="onLowerButtonPressed"
-        android:textSize="30sp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginStart="19dp"
-        android:background="@drawable/roundedbutton"
-        android:textColor="#D0A453"
-        android:layout_below="@+id/main_text_view"
-        android:layout_toRightOf="@+id/main_text_view"
-        android:layout_toEndOf="@+id/main_text_view" />
-
-    <Button
-        android:layout_width="150sp"
-        android:layout_height="50sp"
         android:id="@+id/higher_button"
         android:text="Older"
         android:onClick="onHigherButtonPressed"
@@ -62,9 +48,30 @@
         android:layout_marginRight="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/roundedbutton"
-        android:textColor="#D0A453"
+        android:textColor="#904A2D"
         android:layout_below="@+id/main_text_view"
         android:layout_toLeftOf="@+id/main_text_view"
-        android:layout_toStartOf="@+id/main_text_view" />
+        android:layout_toStartOf="@+id/main_text_view"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:id="@+id/lower_button"
+        android:text="Younger"
+        android:onClick="onLowerButtonPressed"
+        android:textSize="30sp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#904A2D"
+        android:layout_below="@+id/main_text_view"
+        android:layout_toRightOf="@+id/main_text_view"
+        android:layout_toEndOf="@+id/main_text_view"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="normal|bold" />
+
+
 
 </RelativeLayout>

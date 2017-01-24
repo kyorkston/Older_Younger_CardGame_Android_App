@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">OlderYounger</string>
     <string name="rules">Play against the Computer to see if your card is Older or Younger!</string>
-    <string name="more_info">Monument Info</string>
+    <string name="more_info">MONUMENT INFO</string>
     <string name="stonehenge">  Stonehenge is more than the ring of stones which you see, the whole landscape of Amesbury was used in ritual practices.  The stonehenge monoliths were constructed around 3100BC.</string>
     <string name="pyramids">    The earliest Egyptian pyramids construction began around 2630BC. The were mostly used as tombs for the Pharaohs and the upper class.</string>
     <string name="petra">   Petra is an ancient city in Jordan, construction is thought to have begun in the 5th c. BC. This particular building is known as the Treasury, an elaborate temple.</string>
