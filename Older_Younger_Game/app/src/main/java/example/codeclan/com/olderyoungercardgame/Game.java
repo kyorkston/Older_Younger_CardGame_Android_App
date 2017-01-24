@@ -11,16 +11,13 @@ public class Game {
     private GameCards cards;
     private String player;
     private String computer;
-    public int computerWins;
-    public int playerWins;
 
+    // no longer using score counter since game resets every time
 
     public Game(){
         this.cards = new GameCards();
         this.player = getRandomCard();
         this.computer = getRandomCard();
-        this.computerWins = 0;
-        this.playerWins = 0;
     }
 
     //random card

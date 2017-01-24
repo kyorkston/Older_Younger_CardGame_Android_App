@@ -20,9 +20,13 @@
 
         <activity
             android:name=".Pop"
+            android:label="Your Card:"
             android:theme="@style/AppTheme.CustomTheme"/>
 
-        <activity android:name=".MonumentInfoActivity"/>
+        <activity
+            android:name=".MonumentInfoActivity"
+            android:label="MonumentInfo"/>
+
     </application>
 
 </manifest>

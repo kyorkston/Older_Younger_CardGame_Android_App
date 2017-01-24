@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">OlderYoungerCardGame</string>
-    <string name="rules">Play by pressing Higher or Lower!</string>
+    <string name="app_name">OlderYounger</string>
+    <string name="rules">Play against the Computer to see if your card is Older or Younger!</string>
     <string name="more_info">Monument Info</string>
-    <string name="stonehenge">hiya</string>
-    <string name="pyramids">hello</string>
-    <string name="petra">hi</string>
-    <string name="colosseum">colosseum</string>
-    <string name="hagiasophia">hagia Sophia</string>
+    <string name="stonehenge">Stonehenge</string>
+    <string name="pyramids">Pyramids</string>
+    <string name="petra">Petra</string>
+    <string name="colosseum">Colosseum</string>
+    <string name="hagiasophia">Hagia Sophia</string>
     <string name="ankgor">Angkor Wat</string>
     <string name="moai">Moai heads</string>
     <string name="machu">Machu Picchu</string>

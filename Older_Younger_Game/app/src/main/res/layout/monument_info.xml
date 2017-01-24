@@ -4,7 +4,8 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFBEF">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,7 +24,9 @@
             android:layout_height="match_parent"
             android:id="@+id/stonehenge_text"
             android:layout_marginTop="420sp"
-            android:text="@string/stonehenge"/>
+            android:text="@string/stonehenge"
+            android:textColor= "#AC9377"
+            android:textSize="30sp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -37,7 +40,9 @@
             android:layout_height="match_parent"
             android:id="@+id/pyramids_text"
             android:layout_marginTop="850sp"
-            android:text="@string/pyramids"/>
+            android:text="@string/pyramids"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -51,7 +56,9 @@
             android:layout_height="match_parent"
             android:id="@+id/petra_text"
             android:layout_marginTop="1280sp"
-            android:text="@string/petra"/>
+            android:text="@string/petra"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -65,7 +72,9 @@
             android:layout_height="match_parent"
             android:id="@+id/colosseum_text"
             android:layout_marginTop="1710sp"
-            android:text="@string/colosseum"/>
+            android:text="@string/colosseum"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -79,7 +88,9 @@
             android:layout_height="match_parent"
             android:id="@+id/hagia_text"
             android:layout_marginTop="2140sp"
-            android:text="@string/hagiasophia"/>
+            android:text="@string/hagiasophia"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -93,7 +104,9 @@
             android:layout_height="match_parent"
             android:id="@+id/angkor_text"
             android:layout_marginTop="2570sp"
-            android:text="@string/ankgor"/>
+            android:text="@string/ankgor"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -107,7 +120,9 @@
             android:layout_height="match_parent"
             android:id="@+id/moai_text"
             android:layout_marginTop="3000sp"
-            android:text="@string/moai"/>
+            android:text="@string/moai"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -121,7 +136,9 @@
             android:layout_height="match_parent"
             android:id="@+id/machu_text"
             android:layout_marginTop="3430sp"
-            android:text="@string/machu"/>
+            android:text="@string/machu"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -135,7 +152,9 @@
             android:layout_height="match_parent"
             android:id="@+id/mahal_text"
             android:layout_marginTop="3860sp"
-            android:text="@string/mahal"/>
+            android:text="@string/mahal"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -149,7 +168,9 @@
             android:layout_height="match_parent"
             android:id="@+id/eiffel_text"
             android:layout_marginTop="4290sp"
-            android:text="@string/eiffel"/>
+            android:text="@string/eiffel"
+            android:textColor= "#AC9377"
+            android:textSize="30sp"/>
 
     </RelativeLayout>
 

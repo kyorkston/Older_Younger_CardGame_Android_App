@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         cardDetermination();
 
         Log.d(getClass().toString(), "onCreate made");
+
     }
 
     public void onHigherButtonPressed(View button){

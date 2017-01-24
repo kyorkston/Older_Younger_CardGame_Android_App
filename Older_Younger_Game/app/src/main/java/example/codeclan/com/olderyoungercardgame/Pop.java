@@ -7,6 +7,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -17,6 +18,7 @@ public class Pop extends AppCompatActivity{
     TextView resultText;
     Button playAgain;
     Intent intent;
+    Game game;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class Pop extends AppCompatActivity{
         resultText = (TextView)findViewById(R.id.result_text);
         playAgain = (Button)findViewById(R.id.replay_button);
         intent = new Intent(Pop.this, MainActivity.class);
+        game = new Game();
 
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
@@ -40,7 +43,7 @@ public class Pop extends AppCompatActivity{
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int)(width*0.5), (int)(height*0.3));
+        getWindow().setLayout((int)(width*0.5), (int)(height*0.35));
 
         resultText.setText(answer);
     }
