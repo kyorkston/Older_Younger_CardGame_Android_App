@@ -27,7 +27,7 @@ public class Game {
 
     // getting card info methods, DRY?
     public String thePlayerCard(){
-        return "Your card was " + player;
+        return "Your card was " + player + " years old.";
     }
 
     public int getPlayerCardValue(){
@@ -37,7 +37,7 @@ public class Game {
     }
 
     public String theComputerCard() {
-        return "The computer's card was " + computer;
+        return "The computer's card was " + computer + " years old.";
     }
 
     public int getComputerCardValue(){
