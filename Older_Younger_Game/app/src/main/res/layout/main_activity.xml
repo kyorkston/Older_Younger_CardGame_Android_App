@@ -74,13 +74,4 @@
         android:fontFamily="sans-serif-smallcaps"
         android:textStyle="normal|bold" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/win_counter"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="650sp"/>
-
-
-
 </RelativeLayout>

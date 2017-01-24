@@ -24,28 +24,23 @@ public class MainActivity extends AppCompatActivity {
     ImageView playingCardImage;
     Button higherButton;
     Button lowerButton;
-    TextView winCounter;
     Intent intent;
     Game game;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main_activity);
-        gameRules = (TextView)findViewById(R.id.main_text_view);
-        playingCardImage = (ImageView)findViewById(R.id.main_img);
-        higherButton = (Button)findViewById(R.id.higher_button);
-        lowerButton = (Button)findViewById(R.id.lower_button);
-        winCounter = (TextView)findViewById(R.id.win_counter);
-
+        gameRules = (TextView) findViewById(R.id.main_text_view);
+        playingCardImage = (ImageView) findViewById(R.id.main_img);
+        higherButton = (Button) findViewById(R.id.higher_button);
+        lowerButton = (Button) findViewById(R.id.lower_button);
         game = new Game();
 
         cardDetermination();
 
         Log.d(getClass().toString(), "onCreate made");
-
-        winCounter.setText(game.winResults());
     }
 
     public void onHigherButtonPressed(View button){
