@@ -5,172 +5,186 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFBEF">
+    android:background="#FFFBEF"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        >
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/stonehenge_image"
             android:layout_marginTop="20sp"
-            android:contentDescription="@string/stonehenge"/>
+            android:contentDescription="@string/stonehenge_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/stonehenge_text"
-            android:layout_marginTop="420sp"
+            android:layout_marginTop="380sp"
             android:text="@string/stonehenge"
-            android:textColor= "#AC9377"
-            android:textSize="30sp" />
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="450sp"
+            android:layout_marginTop="560sp"
             android:id="@+id/pyramids_image"
-            android:contentDescription="@string/pyramids"/>
+            android:contentDescription="@string/pyramids_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/pyramids_text"
-            android:layout_marginTop="850sp"
+            android:layout_marginTop="920sp"
             android:text="@string/pyramids"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/petra_image"
-            android:layout_marginTop="880sp"
-            android:contentDescription="@string/petra"/>
+            android:layout_marginTop="1050sp"
+            android:contentDescription="@string/petra_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/petra_text"
-            android:layout_marginTop="1280sp"
+            android:layout_marginTop="1410sp"
             android:text="@string/petra"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/colosseum_image"
-            android:layout_marginTop="1310sp"
-            android:contentDescription="@string/colosseum"/>
+            android:layout_marginTop="1560sp"
+            android:contentDescription="@string/colosseum_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/colosseum_text"
-            android:layout_marginTop="1710sp"
+            android:layout_marginTop="1920sp"
             android:text="@string/colosseum"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/hagia_image"
-            android:layout_marginTop="1740sp"
-            android:contentDescription="@string/hagiasophia"/>
+            android:layout_marginTop="2070sp"
+            android:contentDescription="@string/hagiasophia_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/hagia_text"
-            android:layout_marginTop="2140sp"
+            android:layout_marginTop="2430sp"
             android:text="@string/hagiasophia"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/angkor_image"
-            android:layout_marginTop="2170sp"
-            android:contentDescription="@string/ankgor"/>
+            android:layout_marginTop="2590sp"
+            android:contentDescription="@string/ankgor_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/angkor_text"
-            android:layout_marginTop="2570sp"
+            android:layout_marginTop="2950sp"
             android:text="@string/ankgor"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/moai_image"
-            android:layout_marginTop="2600sp"
-            android:contentDescription="@string/moai"/>
+            android:layout_marginTop="3080sp"
+            android:contentDescription="@string/moai_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/moai_text"
-            android:layout_marginTop="3000sp"
+            android:layout_marginTop="3440sp"
             android:text="@string/moai"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/machu_image"
-            android:layout_marginTop="3030sp"
-            android:contentDescription="@string/machu"/>
+            android:layout_marginTop="3570sp"
+            android:contentDescription="@string/machu_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/machu_text"
-            android:layout_marginTop="3430sp"
+            android:layout_marginTop="3930sp"
             android:text="@string/machu"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/mahal_image"
-            android:layout_marginTop="3460sp"
-            android:contentDescription="@string/mahal"/>
+            android:layout_marginTop="4080sp"
+            android:contentDescription="@string/mahal_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/mahal_text"
-            android:layout_marginTop="3860sp"
+            android:layout_marginTop="4440sp"
             android:text="@string/mahal"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/eiffel_image"
-            android:layout_marginTop="3890sp"
-            android:contentDescription="@string/eiffel"/>
+            android:layout_marginTop="4570sp"
+            android:contentDescription="@string/eiffel_img"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/eiffel_text"
-            android:layout_marginTop="4290sp"
+            android:layout_marginTop="4930sp"
             android:text="@string/eiffel"
-            android:textColor= "#AC9377"
-            android:textSize="30sp"/>
+            android:textColor= "#493723"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
 
     </RelativeLayout>
 
