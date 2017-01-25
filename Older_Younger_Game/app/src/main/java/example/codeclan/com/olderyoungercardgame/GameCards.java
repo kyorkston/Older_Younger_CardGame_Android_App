@@ -7,7 +7,7 @@ import java.util.Random;
  * Created by user on 20/01/2017.
  */
 
-public class GameCards {
+public class GameCards{
 
    private HashMap<String, Integer> cards;
 
@@ -16,7 +16,7 @@ public class GameCards {
         setUpCards();
     }
 
-    private void setUpCards() {
+    private void setUpCards(){
         cards.put("Stonehenge", 5000);
         cards.put("Colosseum", 2000);
         cards.put("Eiffel Tower", 130);

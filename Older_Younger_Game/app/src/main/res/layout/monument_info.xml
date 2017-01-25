@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFE9E3"
-    >
+    android:background="@color/duskyPink">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="70sp"
-        android:layout_marginRight="70sp"
-        >
+        android:layout_marginRight="70sp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -29,7 +26,7 @@
             android:id="@+id/stonehenge_text"
             android:layout_marginTop="380sp"
             android:text="@string/stonehenge"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -46,7 +43,7 @@
             android:id="@+id/pyramids_text"
             android:layout_marginTop="920sp"
             android:text="@string/pyramids"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -63,7 +60,7 @@
             android:id="@+id/petra_text"
             android:layout_marginTop="1410sp"
             android:text="@string/petra"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -80,7 +77,7 @@
             android:id="@+id/colosseum_text"
             android:layout_marginTop="1920sp"
             android:text="@string/colosseum"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -95,7 +92,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/broch_text"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"
             android:text="@string/broch"
@@ -114,7 +111,7 @@
             android:id="@+id/hagia_text"
             android:layout_marginTop="2950sp"
             android:text="@string/hagiasophia"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -131,7 +128,7 @@
             android:id="@+id/angkor_text"
             android:layout_marginTop="3480sp"
             android:text="@string/ankgor"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -148,7 +145,7 @@
             android:id="@+id/moai_text"
             android:layout_marginTop="3970sp"
             android:text="@string/moai"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -165,7 +162,7 @@
             android:id="@+id/machu_text"
             android:layout_marginTop="4460sp"
             android:text="@string/machu"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -182,7 +179,7 @@
             android:id="@+id/mahal_text"
             android:layout_marginTop="4980sp"
             android:text="@string/mahal"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 
@@ -199,7 +196,7 @@
             android:id="@+id/eiffel_text"
             android:layout_marginTop="5470sp"
             android:text="@string/eiffel"
-            android:textColor= "#493723"
+            android:textColor= "@color/infoTextColor"
             android:textSize="25sp"
             android:textAlignment="center"/>
 

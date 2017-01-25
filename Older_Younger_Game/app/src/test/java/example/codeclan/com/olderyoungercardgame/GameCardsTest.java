@@ -10,7 +10,7 @@ import static org.junit.Assert.assertNotNull;
  * Created by user on 20/01/2017.
  */
 
-public class GameCardsTest {
+public class GameCardsTest{
 
     private GameCards cards;
 
@@ -38,4 +38,5 @@ public class GameCardsTest {
     public void canGetCard(){
         assertNotNull(cards.getRandomKeyAndValue());
     }
+
 }

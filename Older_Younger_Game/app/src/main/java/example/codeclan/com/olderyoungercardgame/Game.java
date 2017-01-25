@@ -18,12 +18,10 @@ public class Game {
         this.computer = getRandomCard();
     }
 
-    //random card
-    public String getRandomCard() {
+    public String getRandomCard(){
         return cards.getRandomKeyAndValue();
     }
 
-    // getting card info methods, DRY?
     public String thePlayerCard(){
         return "Your card was " + player + " years old.";
     }
@@ -34,7 +32,7 @@ public class Game {
         return integer;
     }
 
-    public String theComputerCard() {
+    public String theComputerCard(){
         return "The computer's card was " + computer + " years old.";
     }
 

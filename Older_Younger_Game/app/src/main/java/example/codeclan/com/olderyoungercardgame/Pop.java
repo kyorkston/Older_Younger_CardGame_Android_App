@@ -20,7 +20,7 @@ public class Pop extends AppCompatActivity{
     Game game;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.pop_menu);

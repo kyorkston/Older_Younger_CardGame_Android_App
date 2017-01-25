@@ -43,7 +43,7 @@ public class MonumentInfoActivity  extends AppCompatActivity{
     Intent intent;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.monument_info);
@@ -96,14 +96,14 @@ public class MonumentInfoActivity  extends AppCompatActivity{
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
         return true;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item){
         if (item.getItemId() == R.id.home){
             Log.d(getClass().toString(), "Home Button selected");
 

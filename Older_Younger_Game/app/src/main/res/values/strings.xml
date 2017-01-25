@@ -1,7 +1,10 @@
 <resources>
+
     <string name="app_name">OlderYounger</string>
     <string name="rules">Play against the Computer to see if your card is Older or Younger!</string>
     <string name="more_info">MONUMENTS</string>
+    <string name="home_menu">HOME</string>
+
     <string name="stonehenge">  Stonehenge is more than the ring of stones which you see, the whole landscape of Amesbury was used in ritual practices.  The stonehenge monoliths were constructed around 3100BC.</string>
     <string name="pyramids">    The earliest Egyptian pyramids construction began around 2630BC. The were mostly used as tombs for the Pharaohs and the upper class.</string>
     <string name="petra">   Petra is an ancient city in Jordan, construction is thought to have begun in the 5th c. BC. This particular building is known as the Treasury, an elaborate temple.</string>
@@ -13,6 +16,7 @@
     <string name="mahal">   Taj Mahal was built as a mausoleum for emperor Shah Jahan\'s favourite wife in 1632. It is often claimed as the ultimate symbol of love and devotion.</string>
     <string name="eiffel">  Eiffel Tower is named after its engineer Gustave Eiffel, built as an entrance to 1889 World Fair. Conspiracy theorists believe it to be a part of a massive satellite dish.</string>
     <string name="broch"> Situated on the Isle of Lewis this broch was built in the Scottish Iron Age, it shares similarities with structures found in Wales, Ireland and Portugal all on the Atlantic coast.</string>
+
     <string name="stonehenge_img"> Image of Stonehenge</string>
     <string name="pyramids_img">Image of Egyptian Pyramids</string>
     <string name="petra_img">Image of the Treasury at Petra</string>
@@ -24,4 +28,5 @@
     <string name="mahal_img">Taj Mahal India</string>
     <string name="eiffel_img">Eiffel Tower Paris</string>
     <string name="broch_img">Dun Carloway broch</string>
+
 </resources>

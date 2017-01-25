@@ -1,18 +1,15 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">#182626</item>
         <item name="colorPrimaryDark">#182626</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#e0b9af</item>
         <item name="android:textStyle">bold</item>
     </style>
     
     <style name="AppTheme.CustomTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
-
     </style>
 
 </resources>

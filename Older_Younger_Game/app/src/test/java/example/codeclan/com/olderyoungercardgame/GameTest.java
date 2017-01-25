@@ -9,7 +9,7 @@ import static org.junit.Assert.assertNotNull;
  * Created by user on 20/01/2017.
  */
 
-public class GameTest {
+public class GameTest{
 
     Game game;
 

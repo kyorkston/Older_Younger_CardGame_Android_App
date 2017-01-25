@@ -18,7 +18,7 @@ import org.w3c.dom.Text;
  * Created by user on 20/01/2017.
  */
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     TextView gameRules;
     ImageView playingCardImage;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     Game game;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main_activity);
@@ -103,14 +103,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
         return true;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item){
         if(item.getItemId() == R.id.action_more_info){
             Log.d(getClass().toString(), "More Info selected");
 
