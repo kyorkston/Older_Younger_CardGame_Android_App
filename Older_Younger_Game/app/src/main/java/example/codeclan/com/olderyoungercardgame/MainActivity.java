@@ -91,11 +91,14 @@ public class MainActivity extends AppCompatActivity {
         else if (game.theComputerCard().contains("Moai")){
             playingCardImage.setImageResource(R.drawable.moai_playing);
         }
-        else if (game.theComputerCard().contains("Machu")) {
+        else if (game.theComputerCard().contains("Machu")){
             playingCardImage.setImageResource(R.drawable.machu_picchu_playing);
         }
-        else if (game.theComputerCard().contains("Angkor")) {
+        else if (game.theComputerCard().contains("Angkor")){
             playingCardImage.setImageResource(R.drawable.angkor_wat_playing);
+        }
+        else if (game.theComputerCard().contains("Dun")){
+            playingCardImage.setImageResource((R.drawable.broch_playing));
         }
     }
 

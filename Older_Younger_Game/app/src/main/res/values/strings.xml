@@ -12,6 +12,7 @@
     <string name="machu">   Machu Picchu is an Incan citadel thought to have been built as an estate for one of the Emperors. It is 7970ft above sea level and many tourists follow the Incan trail to reach the Lost City.</string>
     <string name="mahal">   Taj Mahal was built as a mausoleum for emperor Shah Jahan\'s favourite wife in 1632. It is often claimed as the ultimate symbol of love and devotion.</string>
     <string name="eiffel">  Eiffel Tower is named after its engineer Gustave Eiffel, built as an entrance to 1889 World Fair. Conspiracy theorists believe it to be a part of a massive satellite dish.</string>
+    <string name="broch"> Situated on the Isle of Lewis this broch was built in the Scottish Iron Age, it shares similarities with structures found in Wales, Ireland and Portugal all on the Atlantic coast.</string>
     <string name="stonehenge_img"> Image of Stonehenge</string>
     <string name="pyramids_img">Image of Egyptian Pyramids</string>
     <string name="petra_img">Image of the Treasury at Petra</string>
@@ -22,4 +23,5 @@
     <string name="machu_img">Machu Picchu</string>
     <string name="mahal_img">Taj Mahal India</string>
     <string name="eiffel_img">Eiffel Tower Paris</string>
+    <string name="broch_img">Dun Carloway broch</string>
 </resources>

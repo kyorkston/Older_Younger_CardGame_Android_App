@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 /**
  * Created by user on 23/01/2017.
  */
@@ -24,6 +26,8 @@ public class MonumentInfoActivity  extends AppCompatActivity{
     ImageView petraImage;
     TextView colosseumInfo;
     ImageView colosseumImage;
+    TextView brochInfo;
+    ImageView brochImage;
     TextView hagiasophiaInfo;
     ImageView hagiasophiaImage;
     TextView angkorwatInfo;
@@ -61,6 +65,10 @@ public class MonumentInfoActivity  extends AppCompatActivity{
         colosseumInfo = (TextView)findViewById(R.id.colosseum_text);
         colosseumImage = (ImageView)findViewById(R.id.colosseum_image);
         colosseumImage.setImageResource(R.drawable.colosseum_playing);
+
+        brochInfo = (TextView)findViewById(R.id.broch_text);
+        brochImage = (ImageView)findViewById(R.id.broch_image);
+        brochImage.setImageResource(R.drawable.broch_playing);
 
         hagiasophiaInfo = (TextView)findViewById(R.id.hagia_text);
         hagiasophiaImage = (ImageView)findViewById(R.id.hagia_image);

@@ -27,6 +27,7 @@ public class GameCards {
         cards.put("Machu Pichu", 500);
         cards.put("Angkor Wat", 800);
         cards.put("Taj Mahal", 370);
+        cards.put("Dun Carloway", 1900);
     }
 
     public int getValue(String key){
