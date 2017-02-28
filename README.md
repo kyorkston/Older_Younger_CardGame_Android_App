@@ -18,4 +18,4 @@ Tests can be run all at once by running the 'specs' folder.
 App can be found in the Older_Younger_Game folder and run with Android Studio.
 
 
-Kristie Yorkston.
+*Kristie Yorkston.*
