@@ -19,3 +19,5 @@ App can be found in the Older_Younger_Game folder and run with Android Studio.
 
 
 *Kristie Yorkston.*
+
+![alt text](http://i.imgur.com/OHyqp9h.png)
