@@ -1,4 +1,4 @@
-##Android Studio/Java project at CodeClan.
+<h2>Android Studio/Java project at CodeClan.</h2>
 
 Presentation date: 26/01
 
@@ -7,7 +7,7 @@ An idea which comes from my Archaeology background and I thought it would be a f
 
 ____
 
-######Created using Android Studio v. 2.2.3.
+<h4>Created using Android Studio v. 2.2.3.</h4>
 
 Created for Android API 16 so that more devices are able to run the application.
 
