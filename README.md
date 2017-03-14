@@ -20,6 +20,6 @@ App can be found in the Older_Younger_Game folder and run with Android Studio.
 
 *Kristie Yorkston.*
 
-![alt text](http://i.imgur.com/OHyqp9h.png)
+![alt text](http://i.imgur.com/OHyqp9h.png =500x300)
 
-![alt text](http://oi64.tinypic.com/rh3128.jpg)
+![alt text](http://oi64.tinypic.com/rh3128.jpg =500x300)
