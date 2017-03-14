@@ -22,4 +22,4 @@ App can be found in the Older_Younger_Game folder and run with Android Studio.
 
 ![alt text](http://i.imgur.com/OHyqp9h.png)
 
-![alt text](https://ibb.co/d4xRqa)
+![alt text](http://oi64.tinypic.com/rh3128.jpg)
