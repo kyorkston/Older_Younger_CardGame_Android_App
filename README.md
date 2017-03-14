@@ -20,7 +20,7 @@ App can be found in the Older_Younger_Game folder and run with Android Studio.
 
 *Kristie Yorkston.*
 
-![alt text](http://i.imgur.com/OHyqp9h.png) {:height="500px" width="300px"}
+<img src='http://i.imgur.com/OHyqp9h.png' alt="alt text" width=300 height=550>
 
 
-<img src='http://oi64.tinypic.com/rh3128.jpg' alt="alt text" width=300 height=500>
+<img src='http://oi64.tinypic.com/rh3128.jpg' alt="alt text" width=300 height=550>
